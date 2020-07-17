@@ -1,8 +1,10 @@
-import React, { Component } from "react";
-import { HashRouter, Link } from "react-router-dom";
-import routes from "./routes";
 
-export default class App extends Component {
+import React, { Component } from "react";
+import { HashRouter } from "react-router-dom";
+import router from './components/routes';
+import { Link } from "react-router-dom";
+
+class App extends Component {
   render() {
     return (
       <HashRouter>
@@ -18,9 +20,10 @@ export default class App extends Component {
             </Link>
             </div>
           </nav>
-          {routes}
+          {router}
         </div>
       </HashRouter>
     );
   }
 }
+export default App;

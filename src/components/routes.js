@@ -1,9 +1,9 @@
 import React from "react";
 import { Switch, Route } from "react-router-dom";
-import Home from "./components/Home/Home";
-import About from "./components/About/About";
-import ClassList from "./components/ClassList/ClassList";
-import Student from "./components/Student/Student";
+import Home from './Home/Home';
+import About from "./About/About";
+import ClassList from "./ClassList/ClassList";
+import Student from "./Student/Student";
 
 export default (
     <Switch>
